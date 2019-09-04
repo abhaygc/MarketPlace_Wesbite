@@ -1,0 +1,3 @@
+INSERT INTO `category` (`cid`, `cname`, `date_added`) VALUES ('rub', 'R1', '1/8/98'), ('cnc', 'CNC', '1/21/78');
+INSERT INTO `category` (`cid`, `cname`, `date_added`) VALUES ('rub', 'RUBBER', '1/8/98');
+INSERT INTO `products` (`id`, `cid`, `name`, `description`, `image`, `price`, `profit`, `unit`, `date_added`) VALUES ('t1', 'rub', 'jjj', 'gh uyguiih u', '878', '69', '5', '7', '6'), ('e3r', 'cnc', 'B23', 'jkndvjn k vmj nc', '89', '46', '5', '2', '1/87/89');

@@ -1,0 +1,190 @@
+
+body{
+		height: 100vh;
+		
+	}
+
+.content{
+		background-color: white;
+		
+		
+		display: block;
+		margin-top: 0px;
+	}
+@keyframes example {
+    from {background-color: #cccccc;}
+    to {background-color: white;}
+}
+
+/* The element to apply the animation to 
+div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    
+}*/
+.details{
+	display: inline-block;
+	position: relative;	
+	left:25%;
+	
+	margin-top: 2%;
+	margin-bottom: 5%;
+	width: 50%;
+
+	background-color: white;
+	border-color: #cccccc;
+	border-width: 0.5px;
+	border-radius: 0px;
+	border-style: solid;
+	font-family: 'Open Sans','roboto';
+	font-size: 1em;
+	font-weight: 300;
+	
+	box-sizing: border-box;
+	box-shadow:  0 2px 8px 0 rgb(230, 230, 230), 0 6px 20px 0 rgb(230, 230, 230);
+	/*opacity: 0.4;*/
+	
+	/*
+	animation-name: example;
+	animation-timing-function: ease-in-out;
+	animation-delay: 0.5s;
+    animation-duration: 1s;
+    */
+}
+
+ .name{
+ 	position: relative;
+	left:50px;
+ }
+ .org{
+ 	
+ 	position: relative;
+	left:50px;
+ }
+ 
+ 
+ .email,.password{
+ 	position: relative;
+	left:50px;
+ 	float:left;
+	width: 50%;
+ }
+ .phone,.re-password{
+	position: relative;
+	left:50px;
+ 	float:left;
+	width: 50%;
+ }
+ .address,.pincode{
+	position: relative;
+	left:50px;
+ 	float:left;
+ 	width: 100%;
+ }
+ .city{
+ 	position: relative;
+ 	left: 60px;
+ 	float: left;
+ 	width:50%;
+ }
+ .state{
+ 	position: relative;
+ 	left: 50px;
+ 	float: left;
+ 	width:50%;
+ }
+ .submit{
+ 	position: relative;
+ 	left: 40%;
+ }
+ .box{
+ 	/*border-radius: 5px;*/
+ 	border-style: solid;
+ 	font-size:18px ;
+ 	height: 25px;
+ 	width: 70%;
+ 	border-color: black;
+ 	border-left:none;
+ 	border-right:none;
+ 	border-top:none;
+ }
+
+ #country_code{
+ 	width:40px;
+ }
+
+ .box:focus{
+ 	border-color: blue;
+ 	/*transform-origin: 283px center 0px;*/
+ }
+ 
+ .select_box{
+ 	border-radius: 5px
+ 	border-style: solid;
+ 	font-size:20px ;
+ 	height: 30px;
+ 	width: 70%;
+ }
+ #btn{
+ 	border-radius: 0px;
+ 	border-style: solid;
+ 	border-color: #0099e5;
+ 	background-color: #0099e5;
+ 	font-size:1em;
+ 	height: 30px;
+ 	width: 100px;
+ 	color: white;
+ }
+ .select #box{
+ 	height: 30px;
+ 	width: 60%;
+ }
+ #clear{
+ 	clear: both;
+ }
+ #body{
+ 	background-color: grey;
+ }
+ 
+ label{
+ 
+ 	font-size: 1.5em;
+ 	visibility: visible;
+ 	animation-name: example;
+ 	animation-timing-function:ease-in;
+    animation-duration: 10s;
+    /*color:rgb(26, 115, 232);*/
+ }
+ 
+ 
+ input{
+ 	background-color: transparent;
+ 	color: black;
+ }
+ /*On refresh label change*/
+ input:not([value=""]) {
+ 	~ label{
+ 		visibility: visible;
+ 	}
+ 	
+ }
+ 
+ /*To change margin between different div tag*/
+ .details div{
+ 	margin-top: 5px;
+ }
+
+ .error{
+ 	display: none;
+ 	color: red;
+ 	visibility: visible;
+ 	font-size: 1em;
+ }
+ .php_error{
+ 	display: block;
+ 	font-size: 1em;
+ 	color: red;
+ 	visibility: visible;
+ }
+

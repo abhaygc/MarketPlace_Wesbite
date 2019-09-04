@@ -1,0 +1,147 @@
+body{
+		height: 100vh;
+		margin: 0px;
+	}
+
+#clear{
+ 	clear: both;
+}
+
+.content{
+		background-color: white;
+		height: 92%;
+		overflow: hidden;
+		display: block;
+		
+}
+
+@keyframes example {
+    from {background-color: #cccccc;}
+    to {background-color: white;}
+}
+
+.login-details{
+	display: inline-block;
+	position: relative;	
+	left:25%;
+	
+	margin-top: 2%;
+	margin-bottom: 5%;
+	width: 50%;
+	
+	background-color: white;
+	border-color: #cccccc;
+	border-width: 0.5px;
+	border-radius: 0px;
+	border-style: solid;
+	font-family: 'roboto';
+	font-size: 1em;
+	
+	box-sizing: border-box;
+	box-shadow:  0 2px 8px 0 rgb(230, 230, 230), 0 6px 20px 0 rgb(230, 230, 230);
+	/*opacity: 0.4;*/
+	overflow:hidden;
+	/*
+	animation-name: example;
+	animation-timing-function: ease-in-out;
+	animation-delay: 0.5s;
+    animation-duration: 1s;
+    */
+}
+
+.email,.password,.create-account{
+	display: block;
+	margin-left: 30%;
+	margin-top: 5%;
+}
+
+
+.create-account{
+	font-size: 1.5em;
+	margin-bottom:  5%;
+	letter-spacing: 1px;
+}
+
+.forgot-password{
+	display: block;
+	margin-top: 5%;
+	margin-bottom: 2%;
+}
+#create-acc{
+	cursor: pointer;
+	color:rgb(26, 115, 232);
+	
+	padding-left: 0px;
+	text-decoration: none;
+}
+#forgot-pwd:hover{
+	background-color:transparent;
+}
+
+#btn{
+ 	border-radius: 0px;
+ 	border-style: solid;
+ 	border-color: #0099e5;
+ 	background-color: #0099e5;
+ 	font-size:1em;
+ 	height: 30px;
+ 	width: 100px;
+ 	color: white;
+
+ }
+.submit{
+ 	position: relative;
+ 	left: 40%;
+ }
+ .box{
+ 	/*border-radius: 5px;*/
+ 	border-style: solid;
+ 	font-size:18px ;
+ 	height: 25px;
+ 	width: 70%;
+ 	border-color: black;
+ 	border-left:none;
+ 	border-right:none;
+ 	border-top:none;
+ }
+
+
+.box:focus{
+ 	border-color: blue;
+ 	/*transform-origin: 283px center 0px;*/
+ }
+
+label{
+ 
+ 	font-size: 1.5em;
+ 	visibility: visible;
+ 	
+ }
+
+ 
+ input{
+ 	background-color: transparent;
+ }
+ /*On refresh label change*/
+ input:not([value=""]) {
+ 	~ label{
+ 		visibility: visible;
+ 	}
+ 	
+ }
+ 
+ .error{
+ 	display: none;
+ 	color: red;
+ 	
+ 	font-size: 1em;
+ }
+ .php_error{
+ 	display: block;
+ 	font-size: 1em;
+ 	color: red;
+ 	
+ }
+
+
+ 

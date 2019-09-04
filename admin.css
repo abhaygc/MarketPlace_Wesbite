@@ -1,0 +1,54 @@
+html,body
+{
+	height: 100vh;
+	font-family: 'Open Sans','Roboto';
+}
+.navbar-brand .abs
+    {
+        position: absolute;
+        width: 100%;
+        left: 0;
+        text-align: center;
+    }
+}
+.header{
+	
+	color: black;
+}
+
+
+.content{
+
+	
+}
+.dashboard-menu{
+	position: fixed;
+	min-height: 92%;
+	max-height: 100vh;
+	
+	color: white;
+	font-size: 1.5em;
+}
+.dashboard-content{
+	min-height: 92%;
+	
+}
+.ino
+{
+	
+	text-align: center;
+	font-size: 1.5em;
+	vertical-align: middle;
+	margin-top: 1em;
+
+}
+.dashboard-menu a{
+	color: white;
+}
+.dashboard-menu-item{
+	margin-top: 1em;
+}
+
+#month_orders,#new_cust,#on_going,#profit{
+	font-size: 4em;
+}
